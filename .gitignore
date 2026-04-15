@@ -1,0 +1,21 @@
+# Terraform local state and cache
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files and overrides (often sensitive/local)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan and lock crash files
+*.tfplan
+crash.log
+crash.*.log
+
+# Ignore CLI config if ever added locally
+.terraformrc
+terraform.rc
